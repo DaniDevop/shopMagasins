@@ -17,28 +17,17 @@
           <span class="menu-title">Administration</span>
         </a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-          <i class="icon-disc menu-icon"></i>
-          <span class="menu-title">Categories</span>
-          <i class="menu-arrow"></i>
-        </a>
-        <div class="collapse" id="ui-basic">
-          <ul class="nav flex-column sub-menu">
-            <li class="nav-item"> <a class="nav-link" href="{{route('categories.listes')}}">Listes</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="pages/forms/basic_elements.html">
+        <a class="nav-link" href="{{route('categories.listes')}}">
           <i class="icon-file menu-icon"></i>
-          <span class="menu-title">Form elements</span>
+          <span class="menu-title">Catégories</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pages/charts/chartjs.html">
+        <a class="nav-link" href="{{route('product.listes')}}">
           <i class="icon-pie-graph menu-icon"></i>
-          <span class="menu-title">Charts</span>
+          <span class="menu-title">Produits</span>
         </a>
       </li>
       <li class="nav-item">

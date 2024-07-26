@@ -83,6 +83,8 @@
                     </div>
                 @endif
                   </div>
+                  {{$categorieAll->links()}}
+
                 </div>
               </div>
             </div>
